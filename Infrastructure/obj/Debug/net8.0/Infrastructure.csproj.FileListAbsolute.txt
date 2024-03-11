@@ -1,0 +1,11 @@
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+/Users/youweichen/netcore-practice/Shipping/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
