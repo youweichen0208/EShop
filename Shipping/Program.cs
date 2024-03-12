@@ -1,7 +1,18 @@
+using ApplicationCore.Contracts;
+using Infrastructure.Data;
+using Infrastructure.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ShippingDbContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration.GetConnectionString("ShippingDB"));
+});
+
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 var app = builder.Build();
 

@@ -1,9 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace ApplicationCore.Entities;
 
 public class Customer
 {
-    public int Customer_Id { get; set; }
-    public string Customer_Name { get; set; }
-    
-    
+    [Key]
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
 }

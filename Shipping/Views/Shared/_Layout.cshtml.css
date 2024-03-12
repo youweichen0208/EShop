@@ -6,7 +6,13 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
-
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+}
 a {
   color: #0077cc;
 }

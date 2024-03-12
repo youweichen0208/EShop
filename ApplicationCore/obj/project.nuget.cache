@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omFttHR4ROVz4mOoiS9nh36qVWuymDuInIsmRAbo4gQTAVFegmkmhcY6OOIbB+7zK7B71h4yoJbGnI1PB62h2w==",
+  "dgSpecHash": "CK6gAm0G3/oa78McR8H8c2rcv7EdUUzW9VyZSlHpUQuJunGPPz0GSACE5k0jPTC1wF2NPetXaHVcsFVuZOWQyQ==",
   "success": true,
-  "projectFilePath": "/Users/youweichen/netcore-practice/Shipping/ApplicationCore/ApplicationCore.csproj",
+  "projectFilePath": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

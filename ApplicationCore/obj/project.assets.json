@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/youweichen/netcore-practice/Shipping/ApplicationCore/ApplicationCore.csproj",
+      "projectUniqueName": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "/Users/youweichen/netcore-practice/Shipping/ApplicationCore/ApplicationCore.csproj",
+      "projectPath": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj",
       "packagesPath": "/Users/youweichen/.nuget/packages/",
-      "outputPath": "/Users/youweichen/netcore-practice/Shipping/ApplicationCore/obj/",
+      "outputPath": "/Users/youweichen/Shipping/ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/youweichen/.nuget/NuGet/NuGet.Config"

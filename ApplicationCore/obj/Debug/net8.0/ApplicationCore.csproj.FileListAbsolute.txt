@@ -9,3 +9,15 @@
 /Users/youweichen/netcore-practice/Shipping/ApplicationCore/obj/Debug/net8.0/refint/ApplicationCore.dll
 /Users/youweichen/netcore-practice/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.pdb
 /Users/youweichen/netcore-practice/Shipping/ApplicationCore/obj/Debug/net8.0/ref/ApplicationCore.dll
+/Users/youweichen/Shipping/ApplicationCore/bin/Debug/net8.0/ApplicationCore.deps.json
+/Users/youweichen/Shipping/ApplicationCore/bin/Debug/net8.0/ApplicationCore.dll
+/Users/youweichen/Shipping/ApplicationCore/bin/Debug/net8.0/ApplicationCore.pdb
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.AssemblyInfo.cs
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.sourcelink.json
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.dll
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/refint/ApplicationCore.dll
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ApplicationCore.pdb
+/Users/youweichen/Shipping/ApplicationCore/obj/Debug/net8.0/ref/ApplicationCore.dll

@@ -20,3 +20,53 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.login-container {
+  display: flex;
+  border-radius: 10px;
+  margin-top: 8vh;
+  align-items: center;
+  border: 1vw solid lightgray;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  color: #0f5132;
+  height: 70vh;
+  gap: 2rem;
+}
+
+.login-form {
+  width: 30vw;
+  height: 35vh;
+}
+
+.login-buttons {
+  display: flex; 
+  justify-content: center; 
+  align-content: center; 
+  flex-direction:row;
+  gap: 12rem;
+}
+
+.header-title {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  
+}
+
+
+.signup-form {
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: column;
+  width: 40vw;
+  height: 55vh;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form div {
+  width: 20vw;
+}
