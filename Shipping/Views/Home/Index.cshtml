@@ -3,15 +3,25 @@
 }
 
 <div class="login-container">
+
+    @{
+        if (!String.IsNullOrEmpty(ViewBag.LoginError))
+        {
+            <div class="alert alert-danger">
+                @ViewBag.LoginError
+            </div>
+        }
+    }
     <h1>Welcome</h1>
 
-    <form class="border border-secondary rounded login-form" asp-controller="Home" asp-action="User">
+    <form class="border border-secondary rounded login-form" asp-controller="Home" asp-action="Index">
+
         <div class="row g-2 align-items-center justify-content-center mb-5 mt-5">
             <div class="col-3">
                 <label for="username" class="col-form-label">Email:</label>
             </div>
             <div class="col-4">
-                <input type="email" id="username"  name="username" class="form-control" placeholder="Email address">
+                <input type="email" id="username" name="username" class="form-control" placeholder="Email address">
             </div>
         </div>
         <div class="row g-2 align-items-center justify-content-center mb-5 mt-5">

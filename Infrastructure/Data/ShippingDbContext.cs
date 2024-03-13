@@ -10,5 +10,5 @@ public class ShippingDbContext : DbContext
         
     }
 
-    public DbSet<Customer> Customers { get; set; }
+    public DbSet<Customer?> Customers { get; set; }
 }

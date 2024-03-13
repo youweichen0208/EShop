@@ -6,7 +6,7 @@ namespace Infrastructure.Repository;
 
 public class BaseRepository<T> : IBaseRepository<T> where T : class
 {
-    protected readonly ShippingDbContext _shippingDbContext;
+    private readonly ShippingDbContext _shippingDbContext;
 
     public BaseRepository(ShippingDbContext context)
     {
@@ -20,21 +20,25 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
 
     public int Update(T entity)
     {
-        throw new NotImplementedException();
+        _shippingDbContext.Set<T>().Update(entity);
+        return _shippingDbContext.SaveChanges();
     }
 
     public int Delete(int id)
     {
-        throw new NotImplementedException();
+        var elem = _shippingDbContext.Set<T>().Find(id);
+        if (elem != null)
+            _shippingDbContext.Set<T>().Remove(_shippingDbContext.Set<T>().Find(id));
+        return _shippingDbContext.SaveChanges();
     }
 
     public IEnumerable<T> GetAll()
     {
-        throw new NotImplementedException();
+        return _shippingDbContext.Set<T>().ToList();
     }
 
-    public T GetById(int id)
+    public T? GetById(int id)
     {
-        throw new NotImplementedException();
+       return _shippingDbContext.Set<T>().Find(id);
     }
 }
