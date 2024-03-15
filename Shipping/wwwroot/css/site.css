@@ -70,3 +70,12 @@ body {
 .signup-form div {
   width: 20vw;
 }
+
+.customer-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 8vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

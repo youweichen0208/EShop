@@ -1,12 +1,24 @@
+using ApplicationCore.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Shipping.Controllers;
 
 public class CustomerController:Controller
 {
-    public IActionResult Index()
+    private readonly IProductRepository _productRepository;
+
+    public CustomerController(IProductRepository productRepository)
     {
-        Console.WriteLine("Session name is " + HttpContext.Session.GetString("user"));
-        return View();
+        _productRepository = productRepository;
+    }
+    public IActionResult Index(int page = 1)
+    {
+        if (page < 1)
+            page = 1;
+        var productList = _productRepository.pagination(page);
+        
+        ViewData["user"] = HttpContext.Session.GetString("user");
+        ViewBag.page = page;
+        return View(productList);
     }
 }

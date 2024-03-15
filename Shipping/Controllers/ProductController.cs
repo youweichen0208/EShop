@@ -5,10 +5,10 @@ namespace Shipping.Controllers;
 
 public class ProductController: Controller
 {
-    private static List<Product> _productList = new List<Product>
+    private static List<Product?> _productList = new List<Product?>
     {
-        new Product { Category = "book", ProductId = 1, ProductPrice = 30, ProductName = "Comic Book" },
-        new Product { Category = "Furniture", ProductId = 2, ProductName = "Sofa", ProductPrice = 1200},
+        new Product { CategoryID = 1, ProductId = 1, ProductPrice = 30, ProductName = "Comic Book" },
+        new Product { CategoryID = 2, ProductId = 2, ProductName = "Sofa", ProductPrice = 1200},
     };
 
     public IActionResult Index()
@@ -18,7 +18,7 @@ public class ProductController: Controller
 
     public IActionResult DeleteById(int Id)
     {
-        Product product = _productList.Where(s=> s.ProductId == Id).FirstOrDefault();
+        Product? product = _productList.FirstOrDefault(s => s != null && s.ProductId == Id);
         _productList.Remove(product);
         return RedirectToAction("Index");
     }
