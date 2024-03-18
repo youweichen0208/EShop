@@ -43,7 +43,7 @@ public class ProductsController : ControllerBase
     }
     
     [HttpPost]
-    public IActionResult AddProduct([FromBody]Product product)
+    public IActionResult AddProduct([FromBody]Product? product)
     {
         if (product == null)
         {
