@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5eG6zQWwmhcjWZvrMT15JXB5UKhgD42zMiN9W1Uc3KnekpemS0Rzhi/Og5D/otIdYDXkLMR2Sv5MWw+LwUTww==",
+  "dgSpecHash": "HO7ig0o0lNkK2xZe/8IZqshKLEW59zDvi67MFSDH9aP3lYeJqm9NL7tKwrYB7vnHYBCTFKaZ4SCZl6MnNLlP5g==",
   "success": true,
-  "projectFilePath": "/Users/youweichen/Shipping/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/youweichen/EShop/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/youweichen/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

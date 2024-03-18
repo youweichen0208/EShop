@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shipping
 build_property.RootNamespace = Shipping
-build_property.ProjectDir = /Users/youweichen/Shipping/Shipping/
+build_property.ProjectDir = /Users/youweichen/EShop/Shipping/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/youweichen/Shipping/Shipping
+build_property.MSBuildProjectDirectory = /Users/youweichen/EShop/Shipping
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Customer/Index.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Home/Index.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Home/Login.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Home/Privacy.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Product/Create.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Product/index.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Product/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Shared/Error.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Signup/Index.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Signup/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnbnVwL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/_ViewImports.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/_ViewStart.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/youweichen/Shipping/Shipping/Views/Shared/_Layout.cshtml]
+[/Users/youweichen/EShop/Shipping/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kuq4rqktos

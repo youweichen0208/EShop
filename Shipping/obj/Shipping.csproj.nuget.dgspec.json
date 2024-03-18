@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/youweichen/Shipping/Shipping/Shipping.csproj": {}
+    "/Users/youweichen/EShop/Shipping/Shipping.csproj": {}
   },
   "projects": {
-    "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj": {
+    "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj",
+        "projectPath": "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/Shipping/ApplicationCore/obj/",
+        "outputPath": "/Users/youweichen/EShop/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "/Users/youweichen/Shipping/Infrastructure/Infrastructure.csproj": {
+    "/Users/youweichen/EShop/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/Shipping/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/youweichen/Shipping/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/youweichen/EShop/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/Shipping/Infrastructure/obj/",
+        "outputPath": "/Users/youweichen/EShop/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -81,8 +81,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj": {
-                "projectPath": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj"
+              "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "/Users/youweichen/Shipping/Shipping/Shipping.csproj": {
+    "/Users/youweichen/EShop/Shipping/Shipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/Shipping/Shipping/Shipping.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop/Shipping/Shipping.csproj",
         "projectName": "Shipping",
-        "projectPath": "/Users/youweichen/Shipping/Shipping/Shipping.csproj",
+        "projectPath": "/Users/youweichen/EShop/Shipping/Shipping.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/Shipping/Shipping/obj/",
+        "outputPath": "/Users/youweichen/EShop/Shipping/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -161,11 +161,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj": {
-                "projectPath": "/Users/youweichen/Shipping/ApplicationCore/ApplicationCore.csproj"
+              "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/youweichen/EShop/ApplicationCore/ApplicationCore.csproj"
               },
-              "/Users/youweichen/Shipping/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/youweichen/Shipping/Infrastructure/Infrastructure.csproj"
+              "/Users/youweichen/EShop/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/youweichen/EShop/Infrastructure/Infrastructure.csproj"
               }
             }
           }
