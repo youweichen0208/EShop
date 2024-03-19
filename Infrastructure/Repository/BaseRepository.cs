@@ -12,10 +12,11 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         _shippingDbContext = context;
     }
-    public int Add(T entity)
+    public T Add(T entity)
     {
         _shippingDbContext.Set<T>().Add(entity);
-        return _shippingDbContext.SaveChanges();
+        _shippingDbContext.SaveChanges();
+        return entity;
     }
 
     public int Update(T entity)

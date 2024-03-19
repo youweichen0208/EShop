@@ -1,5 +1,7 @@
 using ApplicationCore.Contracts;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Shipping.API.Controllers;
@@ -8,29 +10,36 @@ namespace Shipping.API.Controllers;
 [ApiController]
 public class ProductsController : ControllerBase
 {
-    readonly IProductRepository _productRepository;
+    private readonly IProductRepository _productRepository;
+    private readonly ICategoryRepository _categoryRepository;
+    private readonly IMapper _mapper;
 
-    public ProductsController(IProductRepository productRepository)
+    public ProductsController(IProductRepository productRepository, ICategoryRepository categoryRepository, IMapper mapper)
     {
         _productRepository = productRepository;
+        _categoryRepository = categoryRepository;
+        _mapper = mapper;
     }
-    
+
     [HttpGet]
     public IActionResult Index(int? page)
     {
         if (page.HasValue && page > 0)
         {
-            var products = _productRepository.pagination(page.Value);
-            return Ok(products);
+            var products = _productRepository.pagination(page.Value).ToList();
+            var productDtos = _mapper.Map<IEnumerable<ProductDto>>(products);
+            return Ok(productDtos);
         }
         else
         {
-            var allProducts = _productRepository.GetAll();
-            return Ok(allProducts);
+            var allProducts = _productRepository.GetAll().ToList();
+            var productDtos = _mapper.Map<IEnumerable<ProductDto>>(allProducts);
+            return Ok(productDtos);
         }
     }
+
     [HttpGet("{id}")]
-    public IActionResult GetProduct(int id)
+    public IActionResult GetProductById(int id)
     {
         var product = _productRepository.GetById(id);
 
@@ -39,20 +48,22 @@ public class ProductsController : ControllerBase
             return NotFound();
         }
 
-        return Ok(product);
+        var productDto = _mapper.Map<ProductDto>(product);
+
+
+        return Ok(productDto);
     }
-    
+
     [HttpPost]
-    public IActionResult AddProduct([FromBody]Product? product)
+    public IActionResult AddProduct([FromBody] ProductDto? productDto)
     {
-        if (product == null)
+        if (productDto == null)
         {
             return BadRequest("Product cannot be null");
         }
 
-        _productRepository.Add(product);
-        return CreatedAtAction(nameof(GetProduct), new { id = product.ProductId }, product);
+        var product = _mapper.Map<Product>(productDto);
+        Product addedProduct = _productRepository.Add(product);
+        return CreatedAtAction(nameof(GetProductById), new { id = addedProduct.ProductId }, productDto);
     }
-    
-    
 }

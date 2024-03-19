@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pgjvfoZwbwcUrI10o34QHxAWQ+wsYb+llSwsyikIUEb9hFwksHxPKvufOiwCg98w/rsG7zaoTTy/ltuuJ0ua3A==",
+  "dgSpecHash": "9dz/KXcT0+nb69nxt9ETaxuZrTW31lSfTeICYG4EojMTay4PsT/e1aH8f5xbnQkjfFPC84x0bafNCOUpt4kZdQ==",
   "success": true,
   "projectFilePath": "/Users/youweichen/EShop/Shipping.API/Shipping.API.csproj",
   "expectedPackageFiles": [
+    "/Users/youweichen/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -14,7 +16,7 @@
     "/Users/youweichen/.nuget/packages/microsoft.codeanalysis.csharp/4.5.0/microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.5.0/microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.5.0/microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
-    "/Users/youweichen/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
