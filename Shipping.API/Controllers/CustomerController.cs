@@ -1,5 +1,6 @@
 using ApplicationCore.Contracts;
 using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,6 +15,7 @@ public class CustomerController : ControllerBase
     {
         _customerRepository = customerRepository;
     }
+
     [HttpGet]
     public IActionResult GetAllCustomers()
     {
@@ -38,6 +40,13 @@ public class CustomerController : ControllerBase
         _customerRepository.Add(customer);
         return CreatedAtAction(nameof(GetCustomerById), new { id = customer.Id }, customer);
     }
-    
-    
+
+    [HttpPost("/login")]
+    public IActionResult Login([FromBody] CustomerDto customerDto)
+    {
+        bool isValid = _customerRepository.Login(customerDto.Username, customerDto.Password);
+        if (isValid == false)
+            return NotFound();
+        return Ok("Congratulations! You have successfully logged in!");
+    }
 }

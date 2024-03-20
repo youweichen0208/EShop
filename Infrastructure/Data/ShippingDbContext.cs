@@ -14,6 +14,8 @@ public class ShippingDbContext : DbContext
     public DbSet<Product> Products { get; set; }
     
     public DbSet<Category> Categories { get; set; }
+    
+    public DbSet<Shipper> Shippers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
