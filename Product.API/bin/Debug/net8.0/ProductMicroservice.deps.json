@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Product.API/1.0.0": {
+      "ProductMicroservice/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.OpenApi": "8.0.0",
@@ -17,7 +17,7 @@
           "UserMicroservice.ApplicationCore": "1.0.0"
         },
         "runtime": {
-          "Product.API.dll": {}
+          "ProductMicroservice.dll": {}
         }
       },
       "AutoMapper/13.0.1": {
@@ -955,7 +955,7 @@
     }
   },
   "libraries": {
-    "Product.API/1.0.0": {
+    "ProductMicroservice/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

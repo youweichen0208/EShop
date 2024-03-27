@@ -17,18 +17,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<UserDbContext>(option =>
 {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
+    option.UseSqlServer(Environment.GetEnvironmentVariable("Eshop"));
+   // option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
 });
 builder.Services.AddScoped<IUserRepositoryAsync, UserRepositoryAsync>();
 builder.Services.AddScoped<IUserServiceAsync, UserServiceAsync>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 app.MapControllers();
