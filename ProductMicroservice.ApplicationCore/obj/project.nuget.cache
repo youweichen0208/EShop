@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ihwAxdDBTdsZ9mi2qmc+KNVHeNVWBi1oEuI9nIY8PxH5YLYRdl2Ab603FyGt9tZHrpDEbZ1dKL17ee7ypjNFHw==",
+  "success": true,
+  "projectFilePath": "/Users/youweichen/EShop/ProductMicroservice.ApplicationCore/ProductMicroservice.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "/Users/youweichen/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
