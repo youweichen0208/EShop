@@ -17,15 +17,15 @@
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
                 "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
@@ -43,8 +43,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -54,19 +54,9 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -84,6 +74,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -109,15 +113,15 @@
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -128,8 +132,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -147,12 +151,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -169,15 +183,15 @@
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
                 "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
@@ -192,8 +206,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -201,17 +215,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -225,12 +239,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

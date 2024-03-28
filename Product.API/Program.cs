@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient();
 builder.Services.AddDbContext<ProductDbContext>(option =>
 {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
+    option.UseSqlServer(Environment.GetEnvironmentVariable("Eshop"));
 });
 builder.Services.AddScoped<IProductRepositoryAsync, ProductRepositoryAsync>();
 builder.Services.AddScoped<IProductServiceAsync, ProductServiceAsync>();

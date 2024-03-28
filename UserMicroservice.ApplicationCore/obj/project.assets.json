@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "AutoMapper/13.0.1": {
         "type": "package",
         "dependencies": {
@@ -202,7 +202,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "AutoMapper >= 13.0.1"
     ]
   },
@@ -222,15 +222,15 @@
         "/Users/youweichen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -241,8 +241,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -260,12 +260,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

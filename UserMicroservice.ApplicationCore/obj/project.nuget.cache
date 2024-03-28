@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3bKnHIQX34DuweBAJOO1WUtNaEE8NFk+RgwKybQMQ57TmABk/5mwnwqNYk4eUxvJQmzvJeEBpKb/ZTIp0zy+Ng==",
+  "dgSpecHash": "1oVagt5KZZdLo599bAtNaOshWWLU6Txn33qOaC3Hha7cXqFlGCxzYFsMj/722ZEZubVkCujPAW3eFM9fssWnWw==",
   "success": true,
   "projectFilePath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,9 @@
     "/Users/youweichen/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "/Users/youweichen/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/youweichen/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/youweichen/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

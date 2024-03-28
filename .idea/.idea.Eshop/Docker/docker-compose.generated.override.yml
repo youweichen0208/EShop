@@ -1,0 +1,41 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.4"
+services:
+  product.api:
+    build:
+      context: "/Users/youweichen/EShop"
+      dockerfile: "Product.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ProductMicroservice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "productapiv2:dev"
+    ports: []
+    volumes:
+    - "/Users/youweichen/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/youweichen/EShop/Product.API:/app:rw"
+    - "/Users/youweichen/EShop:/src:rw"
+    working_dir: "/app"
+  user.api:
+    build:
+      context: "/Users/youweichen/EShop"
+      dockerfile: "User.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/User.API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "userapi:dev"
+    ports: []
+    volumes:
+    - "/Users/youweichen/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/youweichen/EShop/User.API:/app:rw"
+    - "/Users/youweichen/EShop:/src:rw"
+    working_dir: "/app"

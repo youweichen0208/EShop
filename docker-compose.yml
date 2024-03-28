@@ -1,0 +1,20 @@
+﻿version: '3.4'
+services:
+  user.api:
+    image: userapi
+    build:
+      context: .
+      dockerfile: User.API/Dockerfile
+      args:
+        platform: linux/amd64
+    ports: 
+      - '16153:8080'
+    
+  product.api:
+    image: productapiv2
+    build:
+      context: . 
+      dockerfile: Product.API/Dockerfile
+    ports:
+      - '16155:8080'
+    
