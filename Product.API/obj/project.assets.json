@@ -1644,9 +1644,10 @@
       },
       "UserMicroservice.ApplicationCore/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AutoMapper": "13.0.1"
+          "AutoMapper": "13.0.1",
+          "Microsoft.EntityFrameworkCore": "6.0.0"
         },
         "compile": {
           "bin/placeholder/UserMicroservice.ApplicationCore.dll": {}

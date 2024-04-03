@@ -11,3 +11,16 @@
 /Users/youweichen/EShop/UserMicroservice.ApplicationCore/obj/Debug/net7.0/refint/UserMicroservice.ApplicationCore.dll
 /Users/youweichen/EShop/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.pdb
 /Users/youweichen/EShop/UserMicroservice.ApplicationCore/obj/Debug/net7.0/ref/UserMicroservice.ApplicationCore.dll
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/bin/Debug/net7.0/UserMicroservice.ApplicationCore.deps.json
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/bin/Debug/net7.0/UserMicroservice.ApplicationCore.dll
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/bin/Debug/net7.0/UserMicroservice.ApplicationCore.pdb
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.csproj.AssemblyReference.cache
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.AssemblyInfoInputs.cache
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.AssemblyInfo.cs
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.sourcelink.json
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.dll
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/refint/UserMicroservice.ApplicationCore.dll
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/UserMicroservice.ApplicationCore.pdb
+/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/Debug/net7.0/ref/UserMicroservice.ApplicationCore.dll

@@ -1,10 +1,10 @@
-﻿FROM mcr.microsoft.com/dotnet/aspnet:7.0-bullseye-slim-amd64 AS base
+﻿FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 USER $APP_UID
 WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
+EXPOSE 80
+EXPOSE 443
 ENV Eshop="Data Source=172.17.0.2,1433;Initial Catalog=EshopDB;User=SA;Password=<YourStrong@Passw0rd>;TrustServerCertificate=True"
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["User.API/User.API.csproj", "User.API/"]
