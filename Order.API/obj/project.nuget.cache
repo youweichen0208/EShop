@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uGjF+0aredHKBy+KpQK9/GAt5/8q5n9nod/CxX2diVloklRtkiOVfrr0fiAvaZwp1Y/Q5G3DjbwPXoDKFVflpg==",
+  "dgSpecHash": "yrxhnR7si/QSN+7wXdiWTOgJhjncKGEi/9lawLL6o3ZNvhWeTrTsxzXpGN7+ye2i/RK9qdmsUL9eEbzfn0LeUg==",
   "success": true,
-  "projectFilePath": "/Users/youweichen/EShop/Order.API/Order.API.csproj",
+  "projectFilePath": "/Users/youweichen/EShop-backend/Order.API/Order.API.csproj",
   "expectedPackageFiles": [
     "/Users/youweichen/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

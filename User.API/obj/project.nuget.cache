@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4kF0GwQxjXIJjx110l/bqEDIGKSNE/+7swoLHqRTvPmMoA6XSJ8nqf/PZYuMx8BSKyJlZH5dTBIFR/Lz0r2G1Q==",
+  "dgSpecHash": "T+VSdaduNosG55kQrFtZUStNQiF/RKuFU0/0SUihRV008PrL18ugqlrLWxt5ZIcr+Ou9LUV4z8sSTObDtFlowg==",
   "success": true,
-  "projectFilePath": "/Users/youweichen/EShop/User.API/User.API.csproj",
+  "projectFilePath": "/Users/youweichen/EShop-backend/User.API/User.API.csproj",
   "expectedPackageFiles": [
     "/Users/youweichen/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

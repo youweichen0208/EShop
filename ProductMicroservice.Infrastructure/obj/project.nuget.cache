@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdX1rlOG/i88BR2X/PbXvNS6wp+eDALEtmMmCJJC/puWF8a7s1PoBnYOvWkKvfo/wE1NSPUtvouelyJ7RZsGtg==",
+  "dgSpecHash": "b/SCI/JulJqnm4iwweRmREamY1C8DGN3D0P0fe29qzXAJgGcHkhhsNxn391Xi/DVyEj5xH+t+v1aj31smKFpjw==",
   "success": true,
-  "projectFilePath": "/Users/youweichen/EShop/ProductMicroservice.Infrastructure/ProductMicroservice.Infrastructure.csproj",
+  "projectFilePath": "/Users/youweichen/EShop-backend/ProductMicroservice.Infrastructure/ProductMicroservice.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/youweichen/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",

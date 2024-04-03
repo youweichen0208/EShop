@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/youweichen/EShop/Order.API/Order.API.csproj": {}
+    "/Users/youweichen/EShop-backend/Order.API/Order.API.csproj": {}
   },
   "projects": {
-    "/Users/youweichen/EShop/Order.API/Order.API.csproj": {
+    "/Users/youweichen/EShop-backend/Order.API/Order.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/EShop/Order.API/Order.API.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop-backend/Order.API/Order.API.csproj",
         "projectName": "Order.API",
-        "projectPath": "/Users/youweichen/EShop/Order.API/Order.API.csproj",
+        "projectPath": "/Users/youweichen/EShop-backend/Order.API/Order.API.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/EShop/Order.API/obj/",
+        "outputPath": "/Users/youweichen/EShop-backend/Order.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"

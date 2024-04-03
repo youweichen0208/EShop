@@ -4612,11 +4612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/youweichen/EShop/Product.API/Product.API.csproj",
+      "projectUniqueName": "/Users/youweichen/EShop-backend/Product.API/Product.API.csproj",
       "projectName": "ProductMicroservice",
-      "projectPath": "/Users/youweichen/EShop/Product.API/Product.API.csproj",
+      "projectPath": "/Users/youweichen/EShop-backend/Product.API/Product.API.csproj",
       "packagesPath": "/Users/youweichen/.nuget/packages/",
-      "outputPath": "/Users/youweichen/EShop/Product.API/obj/",
+      "outputPath": "/Users/youweichen/EShop-backend/Product.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -4632,14 +4632,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/youweichen/EShop/ProductMicroservice.ApplicationCore/ProductMicroservice.ApplicationCore.csproj": {
-              "projectPath": "/Users/youweichen/EShop/ProductMicroservice.ApplicationCore/ProductMicroservice.ApplicationCore.csproj"
+            "/Users/youweichen/EShop-backend/ProductMicroservice.ApplicationCore/ProductMicroservice.ApplicationCore.csproj": {
+              "projectPath": "/Users/youweichen/EShop-backend/ProductMicroservice.ApplicationCore/ProductMicroservice.ApplicationCore.csproj"
             },
-            "/Users/youweichen/EShop/ProductMicroservice.Infrastructure/ProductMicroservice.Infrastructure.csproj": {
-              "projectPath": "/Users/youweichen/EShop/ProductMicroservice.Infrastructure/ProductMicroservice.Infrastructure.csproj"
+            "/Users/youweichen/EShop-backend/ProductMicroservice.Infrastructure/ProductMicroservice.Infrastructure.csproj": {
+              "projectPath": "/Users/youweichen/EShop-backend/ProductMicroservice.Infrastructure/ProductMicroservice.Infrastructure.csproj"
             },
-            "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
-              "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
+            "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
+              "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
             }
           }
         }

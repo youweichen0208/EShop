@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DjOm4HCzb82cSZbhTfcSVbT+hpTjbm/rnS/17m7NyPjHcWi0q1QBImSAqmznJJBqNMZkkQdlMRDV43jT+Kr53w==",
+  "dgSpecHash": "9eQCOw7JbS+/EWXW+mbrlHPPSBNulENOv4jZnQPB7nKN4bndKKaoii/u2ZiNpKdIhgt6j1BXFxgR4oPz7broPw==",
   "success": true,
-  "projectFilePath": "/Users/youweichen/EShop/ApiGatewayService/ApiGatewayService.csproj",
+  "projectFilePath": "/Users/youweichen/EShop-backend/ApiGatewayService/ApiGatewayService.csproj",
   "expectedPackageFiles": [
     "/Users/youweichen/.nuget/packages/fluentvalidation/11.8.0/fluentvalidation.11.8.0.nupkg.sha512",
     "/Users/youweichen/.nuget/packages/ipaddressrange/6.0.0/ipaddressrange.6.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/youweichen/EShop/ApiGatewayService/ApiGatewayService.csproj": {}
+    "/Users/youweichen/EShop-backend/ApiGatewayService/ApiGatewayService.csproj": {}
   },
   "projects": {
-    "/Users/youweichen/EShop/ApiGatewayService/ApiGatewayService.csproj": {
+    "/Users/youweichen/EShop-backend/ApiGatewayService/ApiGatewayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/EShop/ApiGatewayService/ApiGatewayService.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop-backend/ApiGatewayService/ApiGatewayService.csproj",
         "projectName": "ApiGatewayService",
-        "projectPath": "/Users/youweichen/EShop/ApiGatewayService/ApiGatewayService.csproj",
+        "projectPath": "/Users/youweichen/EShop-backend/ApiGatewayService/ApiGatewayService.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/EShop/ApiGatewayService/obj/",
+        "outputPath": "/Users/youweichen/EShop-backend/ApiGatewayService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"

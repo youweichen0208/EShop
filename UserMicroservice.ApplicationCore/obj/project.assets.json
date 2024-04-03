@@ -212,11 +212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
+      "projectUniqueName": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
       "projectName": "UserMicroservice.ApplicationCore",
-      "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
+      "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
       "packagesPath": "/Users/youweichen/.nuget/packages/",
-      "outputPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/obj/",
+      "outputPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/youweichen/.nuget/NuGet/NuGet.Config"

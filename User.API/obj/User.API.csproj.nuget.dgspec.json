@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/youweichen/EShop/User.API/User.API.csproj": {}
+    "/Users/youweichen/EShop-backend/User.API/User.API.csproj": {}
   },
   "projects": {
-    "/Users/youweichen/EShop/User.API/User.API.csproj": {
+    "/Users/youweichen/EShop-backend/User.API/User.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/EShop/User.API/User.API.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop-backend/User.API/User.API.csproj",
         "projectName": "User.API",
-        "projectPath": "/Users/youweichen/EShop/User.API/User.API.csproj",
+        "projectPath": "/Users/youweichen/EShop-backend/User.API/User.API.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/EShop/User.API/obj/",
+        "outputPath": "/Users/youweichen/EShop-backend/User.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -27,11 +27,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
-                "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
+              "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
+                "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
               },
-              "/Users/youweichen/EShop/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj": {
-                "projectPath": "/Users/youweichen/EShop/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj"
+              "/Users/youweichen/EShop-backend/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj": {
+                "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
+    "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
         "projectName": "UserMicroservice.ApplicationCore",
-        "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
+        "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/obj/",
+        "outputPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -170,14 +170,14 @@
         }
       }
     },
-    "/Users/youweichen/EShop/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj": {
+    "/Users/youweichen/EShop-backend/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/youweichen/EShop/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj",
+        "projectUniqueName": "/Users/youweichen/EShop-backend/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj",
         "projectName": "UserMicroservice.Infrastructure",
-        "projectPath": "/Users/youweichen/EShop/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj",
+        "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.Infrastructure/UserMicroservice.Infrastructure.csproj",
         "packagesPath": "/Users/youweichen/.nuget/packages/",
-        "outputPath": "/Users/youweichen/EShop/UserMicroservice.Infrastructure/obj/",
+        "outputPath": "/Users/youweichen/EShop-backend/UserMicroservice.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/youweichen/.nuget/NuGet/NuGet.Config"
@@ -193,8 +193,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
-                "projectPath": "/Users/youweichen/EShop/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
+              "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj": {
+                "projectPath": "/Users/youweichen/EShop-backend/UserMicroservice.ApplicationCore/UserMicroservice.ApplicationCore.csproj"
               }
             }
           }
