@@ -12,14 +12,6 @@
 /Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
-/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
 /Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
 /Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
@@ -76,3 +68,5 @@
 /Users/youweichen/EShop-backend/User.API/obj/Debug/net6.0/User.API.pdb
 /Users/youweichen/EShop-backend/User.API/obj/Debug/net6.0/User.API.genruntimeconfig.cache
 /Users/youweichen/EShop-backend/User.API/obj/Debug/net6.0/ref/User.API.dll
+/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Humanizer.dll
+/Users/youweichen/EShop-backend/User.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll

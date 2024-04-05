@@ -1,0 +1,29 @@
+# Ignore .NET Core build results
+**/bin/
+**/obj/
+
+# Ignore Visual Studio user-specific files
+*.user
+*.suo
+*.userprefs
+**/.vs/
+
+# Ignore JetBrains Rider user-specific files
+**/.idea/
+
+# Ignore NuGet packages
+**/packages/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+*.env
+
+# Ignore macOS specific files
+.DS_Store
+
+# Files already specified
+**/*.dll
+**/*.info
+**/*.pdb

@@ -17,8 +17,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<UserDbContext>(option =>
 {
-    option.UseSqlServer(Environment.GetEnvironmentVariable("Eshop"));
-   // option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
+    // option.UseSqlServer(Environment.GetEnvironmentVariable("Eshop"));
+   option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
 });
 builder.Services.AddScoped<IUserRepositoryAsync, UserRepositoryAsync>();
 builder.Services.AddScoped<IUserServiceAsync, UserServiceAsync>();
