@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/ApiGatewayService.props" />
-</Project>
