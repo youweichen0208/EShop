@@ -14,17 +14,16 @@ public class UserController : ControllerBase
     }
     
     [HttpGet]
-    public async Task<IActionResult> GetCustomers()
+    public async Task<IActionResult> GetUsers()
     {
-        var customers = await _userServiceAsync.GetAllCustomers();
+        var customers = await _userServiceAsync.GetAllUsers();
         return Ok(customers);
     }
 
     [HttpGet("/{id}")]
-    public async Task<IActionResult> GetCustomerById(string email)
+    public async Task<IActionResult> GetUserById(string email)
     {
-        var customer = await _userServiceAsync.GetCustomerByEmail(email);
+        var customer = await _userServiceAsync.GetUserByEmail(email);
         return Ok(customer);
     }
-    
 }

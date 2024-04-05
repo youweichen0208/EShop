@@ -14,9 +14,17 @@ public class BaseRepositoryAsync<T> : IBaseRepositoryAsync<T> where T : class
     }
     public async Task<T> Add(T entity)
     {
-        _shippingDbContext.Set<T>().Add(entity);
-        await _shippingDbContext.SaveChangesAsync();
-        return entity;
+        try
+        {
+            _shippingDbContext.Set<T>().Add(entity);
+            await _shippingDbContext.SaveChangesAsync();
+            return entity;
+        }
+        catch (DbUpdateException)
+        {
+            // Log the exception, handle it, etc.
+            return null;
+        }
     }
 
     public async Task<int> Update(T entity)

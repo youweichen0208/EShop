@@ -33,4 +33,9 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 app.MapControllers();
+
+app.UseCors(policy => 
+    policy.WithOrigins("http://localhost:4200")
+        .AllowAnyMethod()
+        .AllowAnyHeader());
 app.Run();

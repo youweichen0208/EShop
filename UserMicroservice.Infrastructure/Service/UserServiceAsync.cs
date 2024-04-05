@@ -19,28 +19,29 @@ public class UserServiceAsync : IUserServiceAsync
         throw new NotImplementedException();
     }
 
-    public async Task<User?> GetCustomerByEmail(string email)
+    public async Task<User?> GetUserByEmail(string email)
     {
         throw new NotImplementedException();
     }
 
-    public async Task<IEnumerable<User>> GetAllCustomers()
+    public async Task<IEnumerable<User>> GetAllUsers()
     {
-        var customers = await _userRepositoryAsync.GetAll();
-        return customers;
+        var users = await _userRepositoryAsync.GetAll();
+        return users;
     }
 
-    public async Task<User> CreateCustomer(User user)
+    public async Task<User> CreateUser(User user)
+    {
+        var result = await _userRepositoryAsync.Add(user);
+        return result;
+    }
+
+    public async Task UpdateUser(User user)
     {
         throw new NotImplementedException();
     }
 
-    public async Task UpdateCustomer(User user)
-    {
-        throw new NotImplementedException();
-    }
-
-    public async Task DeleteCustomer(int id)
+    public async Task DeleteUser(int id)
     {
         throw new NotImplementedException();
     }

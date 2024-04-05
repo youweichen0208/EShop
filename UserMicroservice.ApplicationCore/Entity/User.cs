@@ -8,8 +8,8 @@ public  class User
     public int Id { get; set; }
     
     [Required]
-    [StringLength(30, MinimumLength = 1)]
-    [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Name can only contain alphabetic characters.")]
+    [StringLength(31, MinimumLength = 1)]
+    [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "Name can only contain alphabetic characters or space.")]
     public string Name { get; set; } = null!;
     [Required]
     [EmailAddress]

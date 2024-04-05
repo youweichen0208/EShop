@@ -3,9 +3,9 @@ namespace CustomerMicroservice.ApplicationCore.Contract.Service;
 public interface IUserServiceAsync
 {
     Task<User?> Authenticate(string username, string password);
-    Task<User?> GetCustomerByEmail(string email);
-    Task<IEnumerable<User>> GetAllCustomers();
-    Task<User> CreateCustomer(User user);
-    Task UpdateCustomer(User user);
-    Task DeleteCustomer(int id);
+    Task<User?> GetUserByEmail(string email);
+    Task<IEnumerable<User>> GetAllUsers();
+    Task<User> CreateUser(User user);
+    Task UpdateUser(User user);
+    Task DeleteUser(int id);
 }
