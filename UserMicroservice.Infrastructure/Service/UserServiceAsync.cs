@@ -19,9 +19,10 @@ public class UserServiceAsync : IUserServiceAsync
         throw new NotImplementedException();
     }
 
-    public async Task<User?> GetUserByEmail(string email)
+    public async Task<User?> Login(string email)
     {
-        throw new NotImplementedException();
+        var user = await _userRepositoryAsync.GetUserByEmail(email);
+        return user;
     }
 
     public async Task<IEnumerable<User>> GetAllUsers()

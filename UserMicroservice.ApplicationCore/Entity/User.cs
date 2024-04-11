@@ -16,8 +16,6 @@ public  class User
     public string Email { get; set; } = null!;
 
     [Required]
-    [StringLength(20, MinimumLength = 6)]
-    [RegularExpression(@"^[a-zA-Z0-9]+$", ErrorMessage = "Password can only contain alphanumeric characters.")]
     public string Password { get; set; } = null!;
     
     [Required]

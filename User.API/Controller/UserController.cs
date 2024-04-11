@@ -19,11 +19,5 @@ public class UserController : ControllerBase
         var customers = await _userServiceAsync.GetAllUsers();
         return Ok(customers);
     }
-
-    [HttpGet("/{id}")]
-    public async Task<IActionResult> GetUserById(string email)
-    {
-        var customer = await _userServiceAsync.GetUserByEmail(email);
-        return Ok(customer);
-    }
+    
 }
