@@ -44,6 +44,7 @@ This is the cart page for storing users' cart information.
 
 ### Order Detail:
 
+![Order Detail](/assets/order-detail.png)
 This is the order detail page that serves as a receipt for showing order id and order information.
 
 ### Order History:
