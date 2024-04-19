@@ -15,7 +15,7 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
 
     public async Task<List<Product>?> GetProductsByCategory(string category)
     {
-        var products = await _productDbContext.Set<Product>().Where(product => product.Category == category).ToListAsync();
+        var products = await _productDbContext.Set<Product>().Where(product => product.Category == category).OrderByDescending(product => product.Id).ToListAsync();
         return products;
     }
 
