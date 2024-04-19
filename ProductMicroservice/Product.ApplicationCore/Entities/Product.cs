@@ -11,7 +11,7 @@ public class Product
     public string Name { get; set; }
     
     [Required]
-    [RegularExpression("^[0-9]*$", ErrorMessage = "Only numbers are allowed.")]
+    [RegularExpression(@"^\d+(\.\d{1,2})?$", ErrorMessage = "Invalid decimal number.")]
     public decimal Price { get; set; }
     
     [Required]

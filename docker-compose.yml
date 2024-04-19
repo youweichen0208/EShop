@@ -1,20 +1,41 @@
 ﻿version: '3.4'
 services:
   user.api:
-    image: userapi
+    image: user.api
     build:
       context: .
-      dockerfile: User.API/Dockerfile
+      dockerfile: UserMicroservice/User.API/Dockerfile
+      args: 
+        platform: linux/amd64
+    ports:
+      - '16153:8080'
+
+  reviews.api:
+    image: reviews.api
+    build:
+      context: .
+      dockerfile: ReviewsMicroservice/Reviews.API/Dockerfile
       args:
         platform: linux/amd64
-    ports: 
-      - '16153:8080'
-    
-  product.api:
-    image: productapiv2
-    build:
-      context: . 
-      dockerfile: Product.API/Dockerfile
     ports:
-      - '16155:8080'
-    
+      - '16166:8080'
+
+  product.api:
+    image: product.api
+    build:
+      context: .
+      dockerfile: ProductMicroservice/Product.API/Dockerfile
+      args:
+        platform: linux/amd64
+    ports:
+      - '16168:8080'
+
+  order.api:
+    image: order.api
+    build:
+      context: .
+      dockerfile: OrderMicroservice/Order.API/Dockerfile
+      args:
+        platform: linux/amd64
+    ports:
+      - '16199:8080'

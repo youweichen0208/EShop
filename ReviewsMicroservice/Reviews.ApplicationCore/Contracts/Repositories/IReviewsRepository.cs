@@ -1,6 +1,6 @@
 namespace Reviews.ApplicationCore.Contracts.Repositories;
-
-public interface IReviewsRepository
+using Reviews.ApplicationCore.Entities;
+public interface IReviewsRepository : IBaseRepository<Reviews>
 {
-    
+    public Task<List<Reviews>?> GetReviewsByProduct(int id);
 }

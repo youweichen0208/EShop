@@ -1,6 +1,8 @@
 namespace Order.ApplicationCore.Contracts.Repositories;
-
-public interface IOrderRepository
+using Order.ApplicationCore.Entities;
+public interface IOrderRepository : IBaseRepository<Order>
 {
-    
+    public Task<Order?> RetrieveOrderById(int id);
+
+    public Task<List<Order>> GetOrdersById(int id);
 }

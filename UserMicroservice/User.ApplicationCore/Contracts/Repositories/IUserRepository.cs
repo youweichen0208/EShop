@@ -1,6 +1,9 @@
 namespace User.ApplicationCore.Contracts.Repositories;
 
-public interface IUserRepository
+using User.ApplicationCore.Entities;
+public interface IUserRepository : IBaseRepository<User>
 {
-    
+    Task<User?> GetUserByEmail(string username);
+
+    Task<User?> FindByEmail(string email);
 }

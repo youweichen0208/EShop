@@ -12,14 +12,16 @@ public class ProductService : IProductService
         _productRepository = productRepository;
     }
     
-    public Task<IEnumerable<Product>> GetProductsByCategory(string category)
+    public Task<List<Product>?> GetProductsByCategory(string category)
     {
-        throw new NotImplementedException();
+       var products =  _productRepository.GetProductsByCategory(category);
+       return products;
     }
-
-    public Task<Product> GetProductById(int id)
+    
+    public async Task<Product?> GetProductById(int id)
     {
-        throw new NotImplementedException();
+        var product = await _productRepository.GetById(id);
+        return product;
     }
 
     public async Task<bool> RegisterProduct(Product product)
@@ -28,13 +30,25 @@ public class ProductService : IProductService
         return result != null ? true : false;
     }
 
-    public Task<bool> DeleteProduct(Product product)
+    public async Task<List<Product>?> GetAllProducts()
     {
-        throw new NotImplementedException();
+        var products = await _productRepository.GetAll();
+        return products?.ToList();
+    }
+    
+
+    public async Task<string> GetProductNameById(int id)
+    {
+       var product= await _productRepository.GetById(id);
+       if (product != null)
+           return product.Name;
+       else
+           return "";
     }
 
-    public Task<bool> UpdateProductById(int id)
+    public async Task<Product?> GetProductByName(string name)
     {
-        throw new NotImplementedException();
+        var product = await _productRepository.GetProductByName(name);
+        return product;
     }
 }
