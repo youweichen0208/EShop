@@ -21,7 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<UserDbContext>(option =>
 {
     // option.UseSqlServer(Environment.GetEnvironmentVariable("Eshop"));
-   option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
+    option.UseSqlServer(builder.Configuration.GetConnectionString("EshopDB"));
 });
 builder.Services.AddScoped<IUserRepositoryAsync, UserRepositoryAsync>();
 builder.Services.AddScoped<IUserServiceAsync, UserServiceAsync>();
@@ -33,10 +33,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true, 
+            ValidateIssuer = true,
             ValidateAudience = true,
-            ValidateLifetime = true, 
-            ValidateIssuerSigningKey = true, 
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
             ValidIssuer = jwtIssuer,
             ValidAudience = jwtIssuer,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
@@ -47,14 +47,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwagger();
+app.UseSwaggerUI();
 //}
 
 app.UseHttpsRedirection();
 app.MapControllers();
 
-app.UseCors(policy => 
+app.UseCors(policy =>
     policy.WithOrigins("http://localhost:4200")
         .AllowAnyMethod()
         .AllowAnyHeader());
