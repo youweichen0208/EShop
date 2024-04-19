@@ -7,7 +7,6 @@ public class Product
     public int Id { get; set; }
     
     [Required]
-    [StringLength(30, MinimumLength = 1)]
     public string Name { get; set; }
     
     [Required]
