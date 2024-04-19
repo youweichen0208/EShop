@@ -4,15 +4,14 @@ name: Trigger auto deployment for user-container
 on:
   # Automatically trigger it when detected changes in repo
   push:
-    branches: 
-      [ main ]
+    branches: [main]
     paths:
-    - 'UserMicroservice/User.API/**'
-    - '.github/workflows/user-container-AutoDeployTrigger-f477ad66-0dc2-4be1-b552-02ae085e364c.yml'
+      - "UserMicroservice/User.API/**"
+      - ".github/workflows/user-container-AutoDeployTrigger-f477ad66-0dc2-4be1-b552-02ae085e364c.yml"
 
-  # Allow manual trigger 
+  # Allow manual trigger
   workflow_dispatch:
-      
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -29,15 +28,11 @@ jobs:
       - name: Build and push container image to registry
         uses: azure/container-apps-deploy-action@v2
         with:
-          appSourcePath: ${{ github.workspace }}UserMicroservice/User.API 
+          appSourcePath: ${{ github.workspace }}
           registryUrl: eshopapplication.azurecr.io
           registryUsername: ${{ secrets.USERCONTAINER_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.USERCONTAINER_REGISTRY_PASSWORD }}
           containerAppName: user-container
           resourceGroup: EShopApplication
           imageToBuild: eshopapplication.azurecr.io/user-container:${{ github.sha }}
-          
-            
-
-     
-
+          dockerfilePath: UserMicroservice/User.API/Dockerfile

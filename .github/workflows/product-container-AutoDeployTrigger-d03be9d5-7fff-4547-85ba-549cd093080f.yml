@@ -4,15 +4,14 @@ name: Trigger auto deployment for product-container
 on:
   # Automatically trigger it when detected changes in repo
   push:
-    branches: 
-      [ main ]
+    branches: [main]
     paths:
-    - 'ProductMicroservice/Product.API/**'
-    - '.github/workflows/product-container-AutoDeployTrigger-d03be9d5-7fff-4547-85ba-549cd093080f.yml'
+      - "ProductMicroservice/Product.API/**"
+      - ".github/workflows/product-container-AutoDeployTrigger-d03be9d5-7fff-4547-85ba-549cd093080f.yml"
 
-  # Allow manual trigger 
+  # Allow manual trigger
   workflow_dispatch:
-      
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -29,15 +28,11 @@ jobs:
       - name: Build and push container image to registry
         uses: azure/container-apps-deploy-action@v2
         with:
-          appSourcePath: ${{ github.workspace }}ProductMicroservice/Product.API 
+          appSourcePath: ${{ github.workspace }}
           registryUrl: eshopapplication.azurecr.io
           registryUsername: ${{ secrets.PRODUCTCONTAINER_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.PRODUCTCONTAINER_REGISTRY_PASSWORD }}
           containerAppName: product-container
           resourceGroup: EShopApplication
           imageToBuild: eshopapplication.azurecr.io/product-container:${{ github.sha }}
-          
-            
-
-     
-
+          dockerfilePath: ProductMicroservice/Product.API/Dockerfile
